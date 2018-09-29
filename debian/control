@@ -19,3 +19,13 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
+
+Package: xscopes-qt-snapshot
+Architecture: all
+Section: utils
+Depends: ${misc:Depends}, xscopes-qt (= ${source:Version})
+Suggests: rzr
+Priority: extra
+Description: unreleased snapshot version
+ TODO: Remove on issue and upgrade xscopes-qt
+
